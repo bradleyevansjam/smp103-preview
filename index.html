@@ -1757,10 +1757,10 @@ body{background:var(--surface-2)}
 /* ===================== course features kept in the bar: menu · XP · progress · job aids · timer ===================== */
 .cl-end{display:flex;align-items:center;gap:10px}
 .cl-menu,.cl-icon{display:inline-flex;align-items:center;gap:6px;font:inherit;font-weight:700;font-size:13px;min-height:38px;min-width:38px;justify-content:center;
-  padding:0 8px;border:2px solid #fff;border-radius:4px;background:transparent;color:#fff;cursor:pointer}
-.cl-burger{display:inline-grid;gap:3px}.cl-burger i{display:block;width:16px;height:2px;background:#fff}
+  padding:0 8px;border:2px solid var(--bar-fg,#fff);border-radius:4px;background:transparent;color:var(--bar-fg,#fff);cursor:pointer}
+.cl-burger{display:inline-grid;gap:3px}.cl-burger i{display:block;width:16px;height:2px;background:var(--bar-fg,#fff)}
 .cl-menu:focus-visible,.cl-icon:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
-.cl-xp{background:#fff!important;color:var(--navy)!important;font-weight:800;font-size:12.5px;padding:4px 8px;border-radius:2px!important;white-space:nowrap}
+.cl-xp{background:var(--lang-on-bg,#fff)!important;color:var(--lang-on-fg,var(--navy))!important;font-weight:800;font-size:12.5px;padding:4px 8px;border-radius:2px!important;white-space:nowrap}
 .bar.cl-bar-top .cl-sub{margin:10px calc(var(--pad)*-1) -10px;padding:8px var(--pad) 10px;background:var(--surface);border-bottom:1px solid var(--line)}
 .bar.cl-bar-top.cl-onpage .cl-sub{display:none}
 .cl-sub .barmeta{display:flex;align-items:center;justify-content:space-between;gap:10px}
